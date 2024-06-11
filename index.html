@@ -1,17 +1,69 @@
-<html>
-<form method="post" action="resultado.php">
-<div align="center">
-Numero 1
-<br>
-<input type="number" name="numero1">
-<br>
-<br>
-Numero2
-<br>
-<input type="number" name="numero2">
-<br>
-<br>
-<input type="submit" value="Procesar">
-</div>
-</form>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulario de Números Pares</title>
+      <link href="../../assets/img/logo.png" rel="icon">
+	  <link href="../../assets/img/logo-grande.png" rel="apple-touch-icon">
+      <style>
+          body {
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              background-color: #f8f9fa;
+              margin: 0;
+              padding: 0;
+          }
+          form {
+              width: 350px;
+              margin: 100px auto;
+              padding: 20px;
+              border-radius: 10px;
+              background-color: #fff;
+              box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+          }
+          h1 {
+              text-align: center;
+              color: #007bff;
+          }
+          label {
+              display: block;
+              margin-bottom: 10px;
+              font-weight: bold;
+              color: #555;
+          }
+          input[type="number"] {
+              width: calc(100% - 22px);
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+              box-sizing: border-box;
+          }
+          input[type="submit"] {
+              width: 100%;
+              background-color: #007bff;
+              color: #fff;
+              padding: 12px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+          }
+          input[type="submit"]:hover {
+              background-color: #0056b3;
+          }
+      </style>
+  </head>
+  <body>
+      <form method="post" action="resultado.php">
+          <h1>Formulario de Números Pares</h1>
+          <div align="center">
+              <label for="numero1">Número 1</label>
+              <input type="number" id="numero1" name="numero1" required><br>
+              <label for="numero2">Número 2</label>
+              <input type="number" id="numero2" name="numero2" required><br>
+              <input type="submit" value="Procesar">
+          </div>
+      </form>
+  </body>
 </html>
