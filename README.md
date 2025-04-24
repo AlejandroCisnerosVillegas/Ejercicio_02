@@ -18,7 +18,7 @@ Obtención de Datos: Recibe los números ingresados a través de $\_POST.
 
 Esta actividad demuestra habilidades en el desarrollo de aplicaciones web interactivas utilizando tecnologías de front-end y back-end, ofreciendo una experiencia de usuario eficiente y visualmente agradable.
 
-**Consulta la versión preliminar de la actividad aquí:** [https://ejercicio_02.com](https://alejandrovillegas.net/projects/exercise-02/index.html)
+**Consulta la versión preliminar de la actividad aquí:** [https://ejercicio_02.com](https://www.alejandrovillegas.dev/projects/exercise-02/index.html)
 
 # 📌 Información de la Actividad
 
@@ -30,7 +30,7 @@ Esta actividad ha sido desarrollado como parte del portafolio de soluciones tecn
 
 - **Fecha de Desarrollo**: 04 de febrero de 2018
 
-- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+- **Portafolio de Proyectos**: [www.alejandrovillegas.dev](https://www.alejandrovillegas.dev)
 
 ## 🔧 Guía de Instalación y Configuración de la Actividad
 
